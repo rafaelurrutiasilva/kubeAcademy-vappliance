@@ -4,8 +4,8 @@ A Virtual appliance based on PhotonOS v4 containing Docker, kind, kubectl, Kusto
 <br><br><br>
 
 ## Intoduction
-This PhotonOS node is build to use with the KubeAácademy course found at https://kube.academy/courses/building-applications-for-kubernetes <br>
-The node has all the software you need to install discribed at https://kube.academy/courses/building-applications-for-kubernetes/lessons/setting-up-your-workstation <br>
+This PhotonOS node is build to be used with the Kubeacademy course [Building Applications for Kubernetes](https://kube.academy/courses/building-applications-for-kubernetes). <br>
+The node has all the software you need to install discribed in the Lessons nr 2 [Setting Up Your Workstation](https://kube.academy/courses/building-applications-for-kubernetes/lessons/setting-up-your-workstation). <br>
 
-Enjoy!
-/Rafael
+Enjoy!<br>
+Rafael
