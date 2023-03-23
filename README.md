@@ -18,3 +18,18 @@ You can find help and instruction to deploy a Virtual Machine from an OVA file h
 
 ### Account and login
 The root account is enabled to login via ssh and the password is **<VMwareVM1!>** .
+
+### Tips
+#### Kustomization
+Since 1.14, Kubectl also supports the management of Kubernetes objects using a [kustomization](https://kubernetes.io/docs/tasks/manage-kubernetes-objects/kustomization) file.<br> 
+```kubectl kustomize <kustomization_directory>```
+
+To apply those Resources, run kubectl apply with --kustomize or -k flag:<br>
+```kubectl apply -k <kustomization_directory>```
+
+Delete <br>
+```kubectl delete -k overlays/production```
+
+#### 
+
+
