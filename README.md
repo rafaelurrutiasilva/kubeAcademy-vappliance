@@ -30,6 +30,12 @@ To apply those Resources, run kubectl apply with --kustomize or -k flag:<br>
 Delete <br>
 ```kubectl delete -k overlays/production```
 
-#### 
+#### Crashcart
+General Debug, Inspection
+To run crashcart pod in default namespace of K8s cluster:
+```
+$ kubectl create -f https://github.com/lander2k2/crashcart/raw/master/crashcart-po.yaml
+$ kubectl exec -it crashcart bash
+```
 
 
