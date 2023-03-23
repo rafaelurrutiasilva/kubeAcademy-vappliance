@@ -1,0 +1,21 @@
+Tips
+To install:
+“tdnf install git tar tree”
+
+Since 1.14, Kubectl also supports the management of Kubernetes objects using a kustomization file
+https://kubernetes.io/docs/tasks/manage-kubernetes-objects/kustomization/
+kubectl kustomize overlays/production/
+
+kubectl kustomize <kustomization_directory>
+
+To apply those Resources, run kubectl apply with --kustomize or -k flag:
+
+“kubectl apply -k <kustomization_directory>”
+
+Delete
+kubectl delete -k overlays/production
+
+
+If you'd like to learn more about deployments and services, I highly recommend the KubeAcademy course, Kubernetes in-depth, which will explore these and other subjects related to Kubernetes in greater detail.
+
+
