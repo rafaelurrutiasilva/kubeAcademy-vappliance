@@ -43,4 +43,10 @@ $ kubectl create -f https://github.com/lander2k2/crashcart/raw/master/crashcart-
 $ kubectl exec -it crashcart bash
 ```
 
-
+#### Kubeseal
+You may need the Kubeseal client and if you not found it by using the `tdnf` tool, then you can use this installation procedure.
+```
+$ curl -k -L  https://github.com/bitnami-labs/sealed-secrets/releases/download/v0.20.2/kubeseal-0.20.2-linux-amd64.tar.gz -o kubeseal-0.20.2-linux-amd64.tar.gz
+$ tar -xvzf kubeseal-0.20.2-linux-amd64.tar.gz kubeseal
+$ install -m 755 kubeseal /usr/local/bin/kubeseal
+```
