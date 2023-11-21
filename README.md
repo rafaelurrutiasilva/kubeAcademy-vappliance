@@ -1,5 +1,5 @@
 # KubeAcademy Virtual Appliance
-<img width="220" alt="kubeAcademy-vappliance" src="" align=left> <br>
+<img width="220" alt="kubeAcademy-vappliance" src="https://github.com/rafaelurrutiasilva/logos/blob/main/photonos_kubeacademy.png" align=left> <br>
 A Virtual appliance based on PhotonOS v4 containing Docker, Kind, Kubectl, Kustomize, Helm and Skaffold.<br>
 You can use it doing the cources from the  [kube.academy](https://kube.academy). 
 
