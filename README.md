@@ -13,6 +13,8 @@ Enjoy!<br>
 Rafael
 
 
+---
+
 ### Account and login
 The root account is enabled to login via ssh and the password is **<VMwareVM1!>** .
 
