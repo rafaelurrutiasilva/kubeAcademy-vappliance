@@ -6,7 +6,7 @@ You can use it doing the cources from the  [kube.academy](https://kube.academy).
 <br><br><br>
 
 ## Instroduction
-This PhotonOS node is build to be used with the Kubeacademy course [Building Applications for Kubernetes](https://kube.academy/courses/building-applications-for-kubernetes). <br>
+This Photon OS node is build to be used with the Kubeacademy course [Building Applications for Kubernetes](https://kube.academy/courses/building-applications-for-kubernetes). <br>
 The node has all the software you need to install discribed in the Lessons nr 2 [Setting Up Your Workstation](https://kube.academy/courses/building-applications-for-kubernetes/lessons/setting-up-your-workstation). <br>
 
 Enjoy!<br>
