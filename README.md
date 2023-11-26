@@ -12,9 +12,14 @@ The node has all the software you need to install discribed in the Lessons nr 2 
 Enjoy!<br>
 Rafael
 
+---
+### Install all from the scratch
+I getting some reports that the OVA not always work. Also that people what to use another Linux OS than Photon OS. Don't worry! <br>
+You can use my script [installing_all_from_scratch.sh](https://github.com/rafaelurrutiasilva/kubeAcademy-vappliance/blob/main/scripts/installing_all_from_scratch.sh) to prepare your own Linux node to be used for the course.<br>
+The skript will install for you: `helm, kind, kubectl, kubeseal, kustomize and skaffold`.<br><br>
+If you go that way then feel free to skip the rest of the documentation here!
 
 ---
-
 ### Account and login
 The root account is enabled to login via ssh and the password is **<VMwareVM1!>** .
 
